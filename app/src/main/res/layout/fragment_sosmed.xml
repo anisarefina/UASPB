@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall19"
+    tools:context=".sosmed">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/social"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:textSize="40sp"
+            android:textColor="#000000"
+            android:fontFamily="cursive"
+            android:text="Social Media"/>
+
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_above="@+id/facebook"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="340dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/instagram"/>
+
+        <TextView
+            android:id="@+id/nama_ig"
+            android:layout_above="@+id/nama_fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="100dp"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:text="anisarefina"/>
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_above="@+id/snapchat"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="210dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/facebook"/>
+
+        <TextView
+            android:id="@+id/nama_fb"
+            android:layout_above="@+id/sc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="95dp"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:text="anisarefina"/>
+
+        <ImageView
+            android:id="@+id/snapchat"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="80dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/tw"/>
+
+        <TextView
+            android:id="@+id/sc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="95dp"
+            android:layout_marginRight="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:text="anisarefina"/>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</FrameLayout>

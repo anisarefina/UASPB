@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall11"
+    android:scrollbars="vertical"
+    tools:context=".saran">
+
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Berbagi Inspirasi"
+                android:layout_marginTop="40dp"
+                android:textColor="#000000"
+                android:textSize="32sp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="123dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/wall9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_komen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Share pengalaman kulinermu di bawah ya^^ kirim ke email anisa.refina11@gmail.com"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <EditText
+                android:id="@+id/et_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email (anisa.refina11@gmail.com)"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Message :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <EditText
+                android:id="@+id/et_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Komentar"
+                android:inputType="text"
+                android:lines="10"
+                android:gravity="start|top"/>
+
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Send" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

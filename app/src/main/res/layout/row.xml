@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#F5BCA9">
+
+    <ImageView
+        android:id="@+id/imagee"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pempek"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="NAMA MAKANAN"
+            android:textSize="20sp"
+            android:id="@+id/textview1"
+            />
+
+        //Layout
+    </LinearLayout>
+
+</LinearLayout>
